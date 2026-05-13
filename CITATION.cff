@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "ranfst — RAN Synthetic Telemetry Generator"
+message: "If you use this generator or the datasets it produces, please cite it using these metadata."
+type: software
+authors:
+  - family-names: Ferrando
+    given-names: Roman
+    affiliation: Thingbook
+    email: roman.f@thingbook.io
+repository-code: "https://github.com/thngbk/ran-synthetic-data"
+abstract: >-
+  Reproducible synthetic telemetry generator for Radio Access Network (RAN)
+  forecasting and anomaly-detection benchmarks. Emits per-(cell, KPI) time
+  series across nine network scenarios anchored in primary 3GPP, ETSI, and
+  O-RAN specifications. Every dataset is byte-identical reproducible from a
+  (scenario, seed, ranfst version) triple. Companion benchmark harness for
+  forecasting models lives separately at github.com/thngbk/ran-forecasting-stress-test.
+keywords:
+  - RAN
+  - 5G
+  - synthetic-data
+  - benchmark
+  - forecasting
+  - anomaly-detection
+  - 3GPP
+  - O-RAN
+license: Apache-2.0
+version: 0.0.5
+date-released: "2026-05-13"

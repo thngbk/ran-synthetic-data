@@ -1,0 +1,75 @@
+ranfst — RAN Synthetic Telemetry Generator
+Copyright 2026 Roman Ferrando / Thingbook
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+================================================================================
+Third-party dependencies
+================================================================================
+
+This project depends on third-party libraries with the following licenses.
+Each dependency's license file applies to its own source code; this NOTICE file
+exists only to declare the dependency surface.
+
+--------------------------------------------------------------------------------
+Runtime dependencies (declared in pyproject.toml)
+--------------------------------------------------------------------------------
+
+  numpy                 BSD 3-Clause License
+                        https://numpy.org/
+
+  pandas                BSD 3-Clause License
+                        https://pandas.pydata.org/
+
+  pyarrow               Apache License 2.0
+                        https://arrow.apache.org/
+
+  scipy                 BSD 3-Clause License
+                        https://scipy.org/
+
+  click                 BSD 3-Clause License
+                        https://click.palletsprojects.com/
+
+  pyyaml                MIT License
+                        https://pyyaml.org/
+
+--------------------------------------------------------------------------------
+Development dependencies
+--------------------------------------------------------------------------------
+
+  pytest                MIT License
+  pytest-cov            MIT License
+  ruff                  MIT License
+  mypy                  MIT License
+
+--------------------------------------------------------------------------------
+Primary-source documents cited in docs/
+--------------------------------------------------------------------------------
+
+  3GPP TS 28.554       5G end-to-end Key Performance Indicators
+                       (c) 2021 3GPP, ETSI
+
+  3GPP TS 28.552       5G Performance Measurements
+                       (c) 2021 3GPP, ETSI
+
+  3GPP TS 28.104       Management Data Analytics (MDA)
+                       (c) 2024 3GPP, ETSI
+
+  3GPP TR 28.908       Study on AI/ML management
+                       (c) 2024 3GPP, ETSI
+
+  ETSI GS ENI 001      ENI Use Cases
+                       (c) 2023 ETSI
+
+  ETSI TS 104 036      O-RAN Use Cases Detailed Specification
+                       (c) 2025 ETSI / O-RAN Alliance
+
+  ETSI TS 104 226      O-RAN Non-RT RIC Use Cases & Requirements
+                       (c) 2025 ETSI / O-RAN Alliance
+
+  ETSI TR 104 037      O-RAN Use Cases Analysis Report
+                       (c) 2025 ETSI / O-RAN Alliance
+
+These documents are not redistributed by this repository. References cite
+section numbers and verbatim definitions for traceability; the documents
+themselves are available from the issuing standards bodies.
