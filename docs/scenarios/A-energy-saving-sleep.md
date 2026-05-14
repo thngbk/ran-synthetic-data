@@ -47,7 +47,7 @@ Cluster of 1 CB + 3–5 Coverage cells per group, ~20 groups. Baseline diurnal l
 
 - **Hand‑coded seasonal lookup** (SlotEWMA): catastrophic. The hour‑of‑week slot for "neighbour cell at 02:30 Tuesday" was learned with the CB awake; once the CB enters sleep, the slot value is permanently wrong until the slot has been re‑observed across enough sleep cycles. Recovery time ≥ 1 week.
 - **Weekly batch retrainers** (SARIMA, Prophet, LightGBM): stale until next retrain. Recovery time ≤ 168 h, dominated by retrain cadence not algorithm.
-- **Streaming online** (DriftMind, SNARIMAX): adapts within 10s of observations. Recovery time on the order of minutes.
+- **Streaming online**: adapts within 10s of observations. Recovery time on the order of minutes.
 - **Pretrained zero‑shot** (Chronos): unknown — depends on pretraining corpus; likely plateau at structural error floor.
 
 ## Why this matters operationally

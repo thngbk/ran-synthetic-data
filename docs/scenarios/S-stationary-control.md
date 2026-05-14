@@ -39,7 +39,7 @@ Median `MAE_norm` at horizon h ∈ {1, 6, 12, 24} steps, scored on the h‑step 
 ## Expected outcome by model family
 
 - **Hand‑coded seasonal baselines** (SlotEWMA, SARIMA with `m=24`): expected to **win or tie** on this scenario by construction.
-- **Streaming online forecasters** (DriftMind, FastNPTS, SNARIMAX, PSR): expected to be **competitive**, within 10–20% of seasonal baselines.
+- **Streaming online forecasters**: expected to be **competitive**, within 10–20% of seasonal baselines.
 - **Batch retrainers** (Prophet, LightGBM, Seasonal Naive): expected to be **competitive** at horizons ≥ 6, less so at h = 1.
 - **Pretrained zero‑shot** (Chronos): variable — depends on pretraining corpus alignment with hourly RAN cycles.
 

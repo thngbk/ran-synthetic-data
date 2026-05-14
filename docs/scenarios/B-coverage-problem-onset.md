@@ -50,7 +50,7 @@ CQI and MCS distributions shift correspondingly via a calibrated mapping. Handov
 
 - **Seasonal lookups** (SlotEWMA): cannot detect — they have no anomaly score.
 - **Batch retrainers**: detect at retrain‑cadence latency; weekly retrain → up to 168 h lag.
-- **Streaming online** (DriftMind especially): designed to detect distribution shifts in clusters. Expected lead time on antenna‑tilt shifts: 5–30 minutes. On abrupt mast outages: seconds.
+- **Streaming online**: designed to detect distribution shifts in clusters. Expected lead time on antenna‑tilt shifts: 5–30 minutes. On abrupt mast outages: seconds.
 - **Pretrained**: structurally unable to recognise cell‑specific shifts unless fine‑tuned.
 
 ## Why this matters operationally

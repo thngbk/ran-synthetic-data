@@ -14,8 +14,7 @@ class StationaryControl(Scenario):
     """Scenario S — stationary periodic baseline.
 
     Emits the core KPI set with daily + weekly seasonality and Gaussian
-    noise. No regime-change events. DriftMind is *expected to be
-    competitive, not winning* — this is the credibility floor.
+    noise. No regime-change events. This is the credibility floor.
     """
 
     ID = "S"

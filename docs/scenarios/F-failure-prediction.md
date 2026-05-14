@@ -46,7 +46,7 @@ Network elements degrade gradually before failing. Pre‑failure KPI signatures 
 
 ## Expected outcome by model family
 
-- **Streaming forecasters with anomaly capability** (DriftMind): expected to detect within the pre‑failure window — lead times of 10–60 minutes for thermal scenarios, 1–10 minutes for fronthaul scenarios, seconds for RRC instability.
+- **Streaming forecasters with anomaly capability**: expected to detect within the pre‑failure window — lead times of 10–60 minutes for thermal scenarios, 1–10 minutes for fronthaul scenarios, seconds for RRC instability.
 - **Batch retrainers without anomaly logic**: cannot detect.
 - **Seasonal baselines**: cannot detect (no anomaly score).
 

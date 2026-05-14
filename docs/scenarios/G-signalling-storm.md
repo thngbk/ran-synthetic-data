@@ -45,7 +45,7 @@ Inject abrupt connection establishment surges:
 
 ## Expected outcome by model family
 
-This is the regime where streaming pattern matching is structurally most differentiated. **DriftMind's clustering detects the abrupt distribution shift in establishment‑cause histograms within a few observations; weekly retrainers are blind during the entire storm window.**
+This is the regime where streaming pattern matching is structurally most differentiated. **Streaming detectors that track per‑observation distribution shifts can catch abrupt establishment‑cause changes within a few observations; weekly retrainers are blind during the entire storm window.**
 
 ## Why this matters operationally
 
