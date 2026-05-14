@@ -13,8 +13,7 @@ abstract: >-
   forecasting and anomaly-detection benchmarks. Emits per-(cell, KPI) time
   series across nine network scenarios anchored in primary 3GPP, ETSI, and
   O-RAN specifications. Every dataset is byte-identical reproducible from a
-  (scenario, seed, ranfst version) triple. Companion benchmark harness for
-  forecasting models lives separately at github.com/thngbk/ran-forecasting-stress-test.
+  (scenario, seed, ranfst version) triple.
 keywords:
   - RAN
   - 5G

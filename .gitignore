@@ -32,8 +32,7 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Generated data (committed datasets live in the companion benchmark repo
-# under results/; this repo should stay code-only)
+# Generated data — this repo stays code-only; datasets are run output
 /data/
 /results/
 *.parquet
